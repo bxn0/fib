@@ -1,5 +1,8 @@
 package fib
 
 func Fib(n int) int {
-	return 0
+	if n == 0 {
+		return 0
+	}
+	return 1
 }
